@@ -6,7 +6,7 @@ pipeline {
                       script {
                           // Choisissez la commande en fonction de votre script
                              
-			     bat 'python3.0 hello.py' // Pour Python
+			     bat 'python 3.0 hello.py' // Pour Python
 
                           // bat 'javac HelloWorld.java && java HelloWorld' // Pour Java
                       }
