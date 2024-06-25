@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/mertilm/hello-python.git'
+                git branch: 'main', url: 'https://github.com/hrehouma/hello-python.git'
             }
         }
         stage('Build') {
