@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/mertilm/project.git'
+                git branch: 'main', url: 'https://github.com/mertilm/projet.git'
             }
         }
         stage('Build') {
